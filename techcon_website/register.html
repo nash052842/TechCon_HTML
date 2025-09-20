@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - TechCon 2024 </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - TechCon 2024</title>
 </head>
 <body>
-    <header>
-        <h1>Register for TechCon 2024</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Registration Form</h2>
-            <form action="submit_registration.html" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+<header>
+<h1>Register for TechCon 2024</h1>
+</header>
 
-                <label for="company">Company:</label>
-                <input type="text" id="company" name="company">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
 
-                <label for="role">Role:</label>
-                <select id="role" name="role">
-                    <option value="attendee">Attendee</option>
-                    <option value="speaker">Speaker</option>
-                    <option value="sponsor">Sponsor</option>
-                </select>
+<main>
+<section>
+<h2>Registration Form</h2>
+<form action="submit_registration.html" method="POST">
 
-                <button type="submit">Register</button>
-                <button type="enter">password</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 TechCon. All rights reserved.</p>
-    </footer>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="company">Company:</label>
+<input type="text" id="company" name="company"><br><br>
+
+<label for="role">Role:</label>
+<select id="role" name="role">
+<option value="attendee">Attendee</option>
+<option value="speaker">Speaker</option>
+<option value="sponsor">Sponsor</option>
+</select><br><br>
+
+<!-- Checkbox for terms agreement -->
+<input type="checkbox" id="agree" name="agree" required>
+<label for="agree">I agree to the terms and conditions</label><br><br>
+
+<button type="submit">Register</button>
+
+</form>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 TechCon. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
